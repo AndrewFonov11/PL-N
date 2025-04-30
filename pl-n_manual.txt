@@ -1,0 +1,45 @@
+========== PL-N 1.0 ========== MANUAL ============
+
+Hmm... Where to start?
+
+Let's start learning PL-N!
+
+PL-N - This is a minimalist programming language, the syntax of which consists mainly of symbols. In this respect, it is somewhat similar to Brainfuck, but it should not be associated with it, since PL-N uses different symbols, has more capabilities, uses different algorithms and has different limitations.
+
+The interpreter for this programming language is released into the public domain under CC0.
+
+Let's start learning the basics of PL-N.
+
+Let's write a simple program that will display a character on the screen.
+
+Code-
++++++#(/++++++*-)/p
+
+Don't understand anything? Don't worry.
+
+Meaning of symbols in PL-N:
++ - increase the value of the current cell.
+- - same as above, but decrease.
+/ - go to the next cell.
+* - go to the previous cell.
+p - display the symbol that corresponds to the code of the current cell.
+i - enter the symbol into the cell.
+# - multiply the value of the cell by 2.
+^ - reset the current cell.
+! - reset all cells.
+( - start the main loop (it will continue until the very first cell is = 0).
+) - end of the main loop.
+{ - start "loop-loop" (works almost the same as the main one, but now depends on the next cell after the very first one).
+} - end of "loop-loop".
+= - compare the current cell and the next one, if they are equal, increase the value of the very first cell.
+< - same, but now the operation is if the current cell<next.
+> - same, but now the operation is if the current cell>next.
+e - end of the program.
+
+A memory cell is a "container" that stores a numeric value. There can be 999999 such cells in PL-N.
+
+This set of commands should be enough for you to write any algorithm.
+
+Good luck! :)
+
+If pl-n.exe does not start, I advise you to compile it yourself from the source code (file pl-n.c)
