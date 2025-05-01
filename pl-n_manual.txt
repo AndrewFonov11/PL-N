@@ -1,4 +1,4 @@
-========== PL-N 1.0 ========== MANUAL ============
+========== PL-N 1.0.x ========== MANUAL ============
 
 Hmm... Where to start?
 
@@ -29,9 +29,9 @@ i - enter the symbol into the cell.
 ! - reset all cells.
 ( - start the main loop (it will continue until the very first cell is = 0).
 ) - end of the main loop.
-{ - start "loop-loop" (works almost the same as the main one, but now depends on the next cell after the very first one).
+{ - start "loop-loop" (works almost the same as the main loop, but starting with the interpreter version 1.0.2 this type of loop checks the current cell at the start of the loop, if it is equal to 0, then the loop ends).
 } - end of "loop-loop".
-= - compare the current cell and the next one, if they are equal, increase the value of the very first cell.
+= - compares the current cell with the next cell after the current one, if they are equal, the value of the previous (relative to the current) cell is increased (this mechanic was introduced in the interpreter version 1.0.2).
 < - same, but now the operation is if the current cell<next.
 > - same, but now the operation is if the current cell>next.
 e - end of the program.
