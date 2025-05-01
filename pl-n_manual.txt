@@ -42,6 +42,16 @@ In the 1.0.1 version of the interpreter, a bug was fixed where the .exe file did
 
 This set of commands should be enough for you to write any algorithm.
 
+We've already figured out how to output characters. Now let's write a simple "Hello World" program.
+
+Code-
+++++++++{/++++{/++/+++/+++/+****-}/+/+/-//+{*}*-}//p/---p+++++++pp+++p//p*-p*p+++p------p--------p//+p/++p
+
+Now we are ready for a new test. Let's write a program that will check the entered symbol. If it was the symbol "H", then the program will output the number 1, and if not, then 0.
+
+Code-
+i/+++++#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*=*/^+++++#++++++++++++++++++++++++++++++++++++++/(/+++++++++++++++++++++++++++++++++++++++++++++++++p**-)^*^+++++#{/++++*-}/+++++++++p
+
 Good luck! :)
 
 If pl-n.exe does not start, I advise you to compile it yourself from the source code (file pl-n.c)
