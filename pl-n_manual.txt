@@ -34,6 +34,7 @@ i - enter the symbol into the cell.
 = - compares the current cell with the next cell after the current one, if they are equal, the value of the previous (relative to the current) cell is increased (this mechanic was introduced in the interpreter version 1.0.2).
 < - same, but now the operation is if the current cell<next.
 > - same, but now the operation is if the current cell>next.
+s - save a symbol to the current cell (added in 1.0.3, the symbol to save follows immediately after the operation symbol).
 e - end of the program.
 
 A memory cell is a "container" that stores a numeric value. There can be 999999 such cells in PL-N.
@@ -44,13 +45,18 @@ This set of commands should be enough for you to write any algorithm.
 
 We've already figured out how to output characters. Now let's write a simple "Hello World" program.
 
-Code-
+Code(interpreter version before 1.0.3)-
 ++++++++{/++++{/++/+++/+++/+****-}/+/+/-//+{*}*-}//p/---p+++++++pp+++p//p*-p*p+++p------p--------p//+p/++p
+
+Code(since 1.0.3)-
+sHp^sep^slpp^sop^s p^sWp^sop^srp^slp^sdp^s!p
 
 Now we are ready for a new test. Let's write a program that will check the entered symbol. If it was the symbol "H", then the program will output the number 1, and if not, then 0.
 
-Code-
+Code(interpreter version before 1.0.3)-
 i/+++++#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*=*/^+++++#++++++++++++++++++++++++++++++++++++++/(/+++++++++++++++++++++++++++++++++++++++++++++++++p**-)^*^+++++#{/++++*-}/+++++++++p
+
+But you will come up with an analogue of this program using the operation "s" yourself.
 
 Good luck! :)
 
