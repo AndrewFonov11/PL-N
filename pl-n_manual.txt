@@ -38,6 +38,8 @@ e - end of the program.
 
 A memory cell is a "container" that stores a numeric value. There can be 999999 such cells in PL-N.
 
+In the 1.0.1 version of the interpreter, a bug was fixed where the .exe file did not start well. However, it also slightly changed the memory cell limit, now the limit is 99999.
+
 This set of commands should be enough for you to write any algorithm.
 
 Good luck! :)
