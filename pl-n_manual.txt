@@ -13,7 +13,7 @@ Let's start learning the basics of PL-N.
 Let's write a simple program that will display a character on the screen.
 
 Code-
-+++++#(/++++++*-)/p
++++++#{/++++++*-}/p
 
 Don't understand anything? Don't worry.
 
