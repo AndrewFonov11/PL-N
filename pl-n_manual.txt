@@ -35,7 +35,8 @@ i - enter the symbol into the cell.
 < - same, but now the operation is if the current cell<next.
 > - same, but now the operation is if the current cell>next.
 s - save a symbol to the current cell (added in 1.0.3, the symbol to save follows immediately after the operation symbol).
-r - generate a random value and write it to the current cell (added in 1.0.4, but be careful with it, as sometimes it can cause cell overflow).
+r - generate a random value and write it to the current cell (added in 1.0.4, improved in 1.0.5).
+@ - go to the very first cell (number 0, added in 1.0.5).
 e - end of the program.
 
 A memory cell is a "container" that stores a numeric value. There can be 999999 such cells in PL-N.
