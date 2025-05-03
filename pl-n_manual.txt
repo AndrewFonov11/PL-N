@@ -37,6 +37,8 @@ i - enter the symbol into the cell.
 s - save a symbol to the current cell (added in 1.0.3, the symbol to save follows immediately after the operation symbol).
 r - generate a random value and write it to the current cell (added in 1.0.4, improved in 1.0.5).
 @ - go to the very first cell (number 0, added in 1.0.5).
+n - similar in meaning to 'p', but outputs not the character by ASCII code, but the numeric value of the current cell(added in 1.0.6).
+v - similar in meaning to 'i', but enters not a symbol, but a numeric value into the current cell, there is also a variation v+ (adds the entered number to the number in the cell) and v- (subtracts), added in 1.0.6.
 e - end of the program.
 
 A memory cell is a "container" that stores a numeric value. There can be 999999 such cells in PL-N.
