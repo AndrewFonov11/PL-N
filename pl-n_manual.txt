@@ -62,6 +62,18 @@ i/+++++#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*=*/^+++++
 
 But you will come up with an analogue of this program using the operation "s" yourself.
 
+Do you like math? Let's write the simplest calculator in PL-N!
+
+Code-
+i/s+*=(^vv+n*-)/s-*=(^vv-n*-)
+
+Another option is this:
+
+Code-
+i/s+*=(^vv+ne)/s-*=(^vv-ne)
+
+We will request an operation (+/-), then a number, and depending on the answer we will output the result.
+
 Good luck! :)
 
 If pl-n.exe does not start, I advise you to compile it yourself from the source code (file pl-n.c)
