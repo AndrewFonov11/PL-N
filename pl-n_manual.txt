@@ -1,7 +1,5 @@
 ========== PL-N 1.0.x ========== MANUAL ============
 
-Hmm... Where to start?
-
 Let's start learning PL-N!
 
 PL-N - This is a minimalist programming language, the syntax of which consists mainly of symbols. In this respect, it is somewhat similar to Brainfuck, but it should not be associated with it, since PL-N uses different symbols, has more capabilities, uses different algorithms and has different limitations.
@@ -22,7 +20,7 @@ Meaning of symbols in PL-N:
 - - same as above, but decrease.
 / - go to the next cell.
 * - go to the previous cell.
-p - display the symbol that corresponds to the code of the current cell.
+p - display the symbol that corresponds to the code of the current cell(to go to the next line, add "l" after "p", added in interpreter version 1.0.7).
 i - enter the symbol into the cell.
 # - multiply the value of the cell by 2.
 ^ - reset the current cell.
@@ -40,6 +38,8 @@ r - generate a random value and write it to the current cell (added in 1.0.4, im
 n - similar in meaning to 'p', but outputs not the character by ASCII code, but the numeric value of the current cell(added in 1.0.6).
 v - similar in meaning to 'i', but enters not a symbol, but a numeric value into the current cell, there is also a variation v+ (adds the entered number to the number in the cell) and v- (subtracts), added in 1.0.6.
 e - end of the program.
+
+If an error is detected in the code, the interpreter will report it (added in version 1.0.7).
 
 A memory cell is a "container" that stores a numeric value. There can be 999999 such cells in PL-N.
 
@@ -75,5 +75,3 @@ i/s+*=(^vv+ne)/s-*=(^vv-ne)
 We will request an operation (+/-), then a number, and depending on the answer we will output the result.
 
 Good luck! :)
-
-If pl-n.exe does not start, I advise you to compile it yourself from the source code (file pl-n.c)
